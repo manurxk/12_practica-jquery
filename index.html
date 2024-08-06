@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heladeria</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+</head>
+<body>
+    <div  id="Contenedor" class="container">
+        <h3 id="hEncabezado">PEDIDO</h3>
+            <div>
+            <!-- nombre del cliente -->
+        <div class="form-group">
+            <label for="txtCliente">Cliente:</label>
+                <input type="text" class="form-control" placeholder="Nombre del cliente" id="txtCliente">
+        </div>
+            <!-- escribir el sabor del helado-->
+            <div class="form-group">
+            <label for="txtSabor">Sabor:</label>
+            <input type="text" class="form-control" placeholder="Escribe el sabor deseado" id="txtSabor">
+            </div>
+            <!-- el tipo de carga que desea -->
+            <div class="form-group">
+            <label for="txtCarga">Carga:</label>
+            <input type="text" class="form-control" placeholder="Escribe en que te cargamos, /Vasito/Cucurucho/Pote/?" id="txtCarga">
+        </div>
+
+        <button  type="button" class="btn btn-info" id="btnHecho">Hecho</button>
+        </div>
+    </div>
+
+    <script src="./assets/js/jquery.slim.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./app.js"></script>
+</body>
+</html>
